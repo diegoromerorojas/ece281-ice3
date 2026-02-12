@@ -22,3 +22,10 @@ Then it **elaborates** the entity defined by `$TB_ENTITY`
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+![Ripple Adder Waveform](ICE3_Waveform.jpg)
+![Top Entity Sketch](ICE3_RippleAdderEntity.pdf)
+
+## Documentation
+I received in class help from Captain January. He helped me figure how the top level design
+works which furthered my understanding of the VHDL design process we used.
